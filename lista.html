@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Lista em HTML</h2>
+    <hr>
+    <ul>
+        <li>Leite</li>
+        <li>Suco</li>
+        <li>Pão</li>
+    </ul>
+    <ol>
+        <li>Leite</li>
+        <li>Suco</li>
+        <li>Pão</li>
+    </ol>
+    <dl>
+        <dt>Suco</dt>
+            <dd>Morango</dd>
+            <dd>Acerola</dd>
+            <dd>Abacaxi</dd>
+            <dd>Maracujá</dd>
+        <dt>Pão</dt>
+            <dd>Queijo</dd>
+            <dd>Recheado</dd>
+            <dd>Shawarma</dd>
+    </dl>
+    <details>
+        <summary>Provas de TI</summary>
+        <p>
+            Ora, Micky disse que a luta só acabouva ao subir do gongo. Ainda não ouvimos o gongo, certo?
+        </p>
+    </details>
+    <br> <hr>
+    <fieldset>
+        <legend>Time de Futebol</legend>
+        <label for="futebol">Qual seu time de futebol?</label>
+        <input id="futebol" name="futebol" type="text" list="listafutebol"/>
+        <datalist id="listafutebol"><br>
+            Escolha um time!
+            <option value="palmeiras">Palmeiras</option>
+            <option value="internacional">Internacional</option>
+            <option value="flamengo">Flamengo</option>
+            <option value="santos">Santos</option>
+        </datalist>
+    </fieldset>
+</body>
+</html>
